@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageTube", "Message\MessageTube.csproj", "{FA2238E0-709C-41C4-BAA6-87199798CDC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier", "NTier\NTier.csproj", "{751A7E2A-CD3C-4AED-B58D-D62C7AB74A33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierBLL", "NTierBLL\NTierBLL.csproj", "{97964AD2-62CC-41EB-AC8B-377AE40E0A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierModel", "NTierModel\NTierModel.csproj", "{66704B02-0FCE-47B6-BA68-9649AD03A194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierRepository", "NTierRepository\NTierRepository.csproj", "{CC21C1B1-50AA-4A3D-9D05-521548CB597E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA2238E0-709C-41C4-BAA6-87199798CDC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2238E0-709C-41C4-BAA6-87199798CDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2238E0-709C-41C4-BAA6-87199798CDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2238E0-709C-41C4-BAA6-87199798CDC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{751A7E2A-CD3C-4AED-B58D-D62C7AB74A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{751A7E2A-CD3C-4AED-B58D-D62C7AB74A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{751A7E2A-CD3C-4AED-B58D-D62C7AB74A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{751A7E2A-CD3C-4AED-B58D-D62C7AB74A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97964AD2-62CC-41EB-AC8B-377AE40E0A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97964AD2-62CC-41EB-AC8B-377AE40E0A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97964AD2-62CC-41EB-AC8B-377AE40E0A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97964AD2-62CC-41EB-AC8B-377AE40E0A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66704B02-0FCE-47B6-BA68-9649AD03A194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66704B02-0FCE-47B6-BA68-9649AD03A194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66704B02-0FCE-47B6-BA68-9649AD03A194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66704B02-0FCE-47B6-BA68-9649AD03A194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC21C1B1-50AA-4A3D-9D05-521548CB597E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC21C1B1-50AA-4A3D-9D05-521548CB597E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC21C1B1-50AA-4A3D-9D05-521548CB597E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC21C1B1-50AA-4A3D-9D05-521548CB597E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

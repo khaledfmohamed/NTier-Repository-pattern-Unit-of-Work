@@ -1,0 +1,40 @@
+﻿@if (ViewBag.MessagesList != null)
+{
+    <div class="alert alert-danger alert-dismissable  @(ViewBag.MessagesList.ErrorMessagesCount == 0 ? "hidden" : "") ">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        @foreach (var msg in ViewBag.MessagesList.ErrorMessages)
+        {
+            <strong>@SiteResource.Error!</strong> @msg.Body;
+        }
+
+    </div>
+        <div class="alert alert-info alert-dismissable  @(ViewBag.MessagesList.InfoMessagesCount == 0 ? "hidden" : "" ) ">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            @foreach (var msg in ViewBag.MessagesList.InfoMessages)
+            {
+                <strong>@SiteResource.Info!</strong> @msg.Body;
+            }
+
+        </div>
+
+        <div class="alert alert-warning alert-dismissable  @(ViewBag.MessagesList.WarnnigMessagesCount == 0 ? "hidden" : "" ) ">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            @foreach (var msg in ViewBag.MessagesList.WarnnigMessages)
+            {
+                <strong>@SiteResource.Warnnig!</strong> @msg.Body;
+            }
+
+        </div>
+        <div class="alert alert-success alert-dismissable  @(ViewBag.MessagesList.WarnnigMessagesCount == 0 ? "hidden" : "") ?  ">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            @foreach (var msg in ViewBag.MessagesList.SuccessMessages)
+            {
+                <strong>@SiteResource.Warnnig!</strong> @msg.Body;
+            }
+
+        </div>
+
+
+}
+
+

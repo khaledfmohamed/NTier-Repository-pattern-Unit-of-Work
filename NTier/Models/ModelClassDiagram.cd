@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NTier.Models.Child.ScrumProject">
+    <Position X="2" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAACAgAAAAAAAAAAQAAAAAAAAAAAACQAIAAAA=</HashCode>
+      <FileName>Models\Child\ScrumProject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NTier.Models.Child.ScrumEpics">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAAAgAAAAAAAACAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Child\ScrumEpics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
