@@ -21,6 +21,9 @@ The mean two points that we target from this architecture are:
  This project contain model class which will be passed between layers carring data.
 The model class contain only properties with no methods just validation attributes on each property as need.
 ## Repository project:
- This project is a practical example for microsft repository pattern , with this project all database or storage operation will be here That means that any query or ADO EnttiyFramwork operation will be here and will not be in any other project.
+ This project is a practical example for ![microsft repository pattern](https://msdn.microsoft.com/en-us/library/ff649690.aspx) , with this project all database or storage operation will be here That means that any query or ADO EnttiyFramwork operation will be here and will not be in any other project.
+ 
+ 
+ 
  
  
