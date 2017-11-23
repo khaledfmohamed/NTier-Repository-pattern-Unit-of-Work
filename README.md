@@ -44,6 +44,12 @@ UI will call bussinse object throught Bussinse context object which is resposibl
 
 ![Diagram](https://github.com/khaledfmohamed/NTier/blob/master/BussinseContext.png?raw=true)
 
+## MessageTube:
+This project contain interfaces and class for message solution.
+This solution provide an index class called MessageList which will be intiated by BussniseContext object and any bussinse method will right to it.
+UI will use messageList object to get user alerts.
+
+
  
  
  
