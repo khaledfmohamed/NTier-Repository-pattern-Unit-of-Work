@@ -42,6 +42,8 @@ Contain Bussinse or service objects which contain methods for bussinse logic and
 This methods will be called by UI (ViewModel , Controller , .....).
 UI will call bussinse object throught Bussinse context object which is resposible about bussinse object intiation and the flow of messages (alerts) from bussinse logic to UI.
 
+![Diagram](https://github.com/khaledfmohamed/NTier/blob/master/ReprositoryException.png?raw=true)
+
  
  
  
