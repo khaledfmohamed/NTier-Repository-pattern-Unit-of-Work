@@ -21,8 +21,16 @@ The mean two points that we target from this architecture are:
  This project contain model class which will be passed between layers carring data.
 The model class contain only properties with no methods just validation attributes on each property as need.
 ## Repository project:
- This project is a practical example for ![microsft repository pattern](https://msdn.microsoft.com/en-us/library/ff649690.aspx) , with this project all database or storage operation will be here That means that any query or ADO EnttiyFramwork operation will be here and will not be in any other project.
- 
+ This project is a practical example for ![Microsft repository pattern](https://msdn.microsoft.com/en-us/library/ff649690.aspx) , with this project all database or storage operation will be here , That mean that any query or ADO EnttiyFramwork operation will be here and will not be in any other project.
+ ### Repository Components:
+  - IRepository : Interface thet contain most common method like (GetAll() , Get() , Remove() , ..............)
+  - RepositoryBase : Class Inherit IRepository to implement most common methods.
+  - IProjectRepository : Interface Inherit IRepository to add the most need for specfic model which is here called project (Will be                                repeated for every model).
+  - ProjectRepository : Class Inherit RepositoryBase and implement IProjectRepository (Will be repeated for every model).
+  - IUnitOfWork : The Interface which is reponsable about the declaration of methods and properties need for opening and closing                           transaction and dispose any open resource.  
+  - UnitOfWork : Class Inherit IUnitOfWork.
+  
+  Note : IUnitOfWork will be the communication point with bussinse layer.
  
  
  
