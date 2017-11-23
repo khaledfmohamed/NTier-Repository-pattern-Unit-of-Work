@@ -20,7 +20,7 @@ The mean two points that we target from this architecture are:
 ## Model project:
  This project contain model class which will be passed between layers carring data.
 The model class contain only properties with no methods just validation attributes on each property as need.
-## Repository project:
+## Repository project(NTierRepository):
  This project is a practical example for ![Microsft repository pattern](https://msdn.microsoft.com/en-us/library/ff649690.aspx) , with this project all database or storage operation will be here , That mean that any query or ADO EnttiyFramwork operation will be here and will not be in any other project.
  ### Repository Components:
   - IRepository : Interface thet contain most common method like (GetAll() , Get() , Remove() , ..............)
@@ -29,8 +29,14 @@ The model class contain only properties with no methods just validation attribut
   - ProjectRepository : Class Inherit RepositoryBase and implement IProjectRepository (Will be repeated for every model).
   - IUnitOfWork : The Interface which is reponsable about the declaration of methods and properties need for opening and closing                           transaction and dispose any open resource.  
   - UnitOfWork : Class Inherit IUnitOfWork.
+  - RepositoryException : this type of exception with be raised due to any exception occure in Repository project to be hanndled in         bussinse layer and send it to UI through MessageTube project.
+    This class with carry exception message and code.
+    The code property allow developer to take any expected exception code to check by this code in bussinse layer and return readable       message to user in UI.
+  
   
   Note : IUnitOfWork will be the communication point with bussinse layer.
+## Bussins layer (NTierBLL):
+Contain 
  
  
  
