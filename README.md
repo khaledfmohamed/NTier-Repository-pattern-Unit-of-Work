@@ -38,7 +38,10 @@ The model class contain only properties with no methods just validation attribut
 
 Note : IUnitOfWork will be the communication point with bussinse layer.
 ## Bussins layer (NTierBLL):
-Contain 
+Contain Bussinse or service objects which contain methods for bussinse logic and bussinse validation.
+This methods will be called by UI (ViewModel , Controller , .....).
+UI will call bussinse object throught Bussinse context object which is resposible about bussinse object intiation and the flow of messages (alerts) from bussinse logic to UI.
+
  
  
  
