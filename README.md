@@ -32,9 +32,11 @@ The model class contain only properties with no methods just validation attribut
   - RepositoryException : this type of exception with be raised due to any exception occure in Repository project to be hanndled in         bussinse layer and send it to UI through MessageTube project.
     This class with carry exception message and code.
     The code property allow developer to take any expected exception code to check by this code in bussinse layer and return readable       message to user in UI.
-  
-  
-  Note : IUnitOfWork will be the communication point with bussinse layer.
+   
+   
+   ![Diagram](https://github.com/khaledfmohamed/NTier/blob/master/ReprositoryException.png?raw=true)
+
+Note : IUnitOfWork will be the communication point with bussinse layer.
 ## Bussins layer (NTierBLL):
 Contain 
  
